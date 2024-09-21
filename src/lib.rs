@@ -23,7 +23,7 @@ pub fn eval_phase_two_raw(
         .zip(utxos_outputs_bytes.into_iter())
         .map(|(x, y)| (x.to_vec(), y.to_vec()))
         .collect::<Vec<(Vec<u8>, Vec<u8>)>>();
-    return tx::eval_phase_two_raw(
+    return tx::eval_phase_two_raw_bis(
         tx_bytes,
         &utxos_bytes,
         Some(cost_mdls_bytes),

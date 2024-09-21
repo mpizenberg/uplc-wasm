@@ -854,8 +854,6 @@ checksum = "0336d538f7abc86d282a4189614dfaa90810dfc2c6f6427eaf88e16311dd225d"
 [[package]]
 name = "uplc"
 version = "1.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44f8851275d6f9485ececa08046ddeeac3c158dce0d3229cf8fe2a2d627440a3"
 dependencies = [
  "blst",
  "cryptoxide",
